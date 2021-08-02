@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "263826058632",
+    "firebase_url": "https://ubertaxi-74aa9-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "ubertaxi-74aa9",
+    "storage_bucket": "ubertaxi-74aa9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:263826058632:android:e10b56760acd619531de3d",
+        "android_client_info": {
+          "package_name": "com.example.rider_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "263826058632-p3v8q2st6ogjgokv3ugpd4vqm91je42s.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCBOH6KGg0TBgD-LxRPAo_pQo10xLN6lnA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "263826058632-p3v8q2st6ogjgokv3ugpd4vqm91je42s.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,6 +1,32 @@
+import 'package:firebase_auth/firebase_auth.dart';
+import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
+import 'dart:io';
+import 'package:rider_app/screens/mainpage.dart';
 
-void main() {
+Future<void> main() async {
+  WidgetsFlutterBinding.ensureInitialized();
+  final FirebaseApp app = await Firebase.initializeApp(
+    name: 'db2',
+    options: Platform.isIOS
+        ? const FirebaseOptions(
+            messagingSenderId: '263826058632',
+            databaseURL:
+                'https://ubertaxi-74aa9-default-rtdb.asia-southeast1.firebasedatabase.app',
+            projectId: 'ubertaxi-74aa9',
+            appId: '1:263826058632:android:e10b56760acd619531de3d',
+            apiKey: 'AIzaSyCBOH6KGg0TBgD-LxRPAo_pQo10xLN6lnA',
+          )
+        : const FirebaseOptions(
+            messagingSenderId: '263826058632',
+            databaseURL:
+                'https://ubertaxi-74aa9-default-rtdb.asia-southeast1.firebasedatabase.app',
+            projectId: 'ubertaxi-74aa9',
+            appId: '1:263826058632:android:e10b56760acd619531de3d',
+            apiKey: 'AIzaSyCBOH6KGg0TBgD-LxRPAo_pQo10xLN6lnA',
+          ),
+  );
+
   runApp(MyApp());
 }
 
