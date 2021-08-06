@@ -8,7 +8,7 @@ import 'package:rider_app/helpers/helpermethods.dart';
 import 'package:rider_app/rideVaribles.dart';
 import 'package:rider_app/screens/searchpage.dart';
 import 'package:rider_app/styles/styles.dart';
-import 'package:rider_app/widgets/BrandDivier.dart';
+import 'package:rider_app/widgets/BrandDivider.dart';
 import 'package:rider_app/widgets/CollectPaymentDialog.dart';
 import 'package:rider_app/widgets/NoDriverDialog.dart';
 import 'package:rider_app/widgets/ProgressDialog.dart';
